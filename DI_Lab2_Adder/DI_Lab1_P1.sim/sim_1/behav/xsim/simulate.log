@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+Warning: error in sum
+Time: 370 ns  Iteration: 0  Process: /adder_tb/stimuli  File: D:/imran/P.W/VHDL/DI_Lab1_P1/source_files/adder_tb.vhd
+Warning: error in sum
+Time: 870 ns  Iteration: 0  Process: /adder_tb/stimuli  File: D:/imran/P.W/VHDL/DI_Lab1_P1/source_files/adder_tb.vhd
+Warning: error in carry_out
+Time: 870 ns  Iteration: 0  Process: /adder_tb/stimuli  File: D:/imran/P.W/VHDL/DI_Lab1_P1/source_files/adder_tb.vhd

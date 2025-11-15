@@ -1,0 +1,311 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Nov 15 01:25:49 2025
+# Process ID: 12396
+# Current directory: D:/imran/P.W/VHDL/DI_Lab2_Adder/DI_Lab1_P1.runs/synth_1
+# Command line: vivado.exe -log adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adder.tcl
+# Log file: D:/imran/P.W/VHDL/DI_Lab2_Adder/DI_Lab1_P1.runs/synth_1/adder.vds
+# Journal file: D:/imran/P.W/VHDL/DI_Lab2_Adder/DI_Lab1_P1.runs/synth_1\vivado.jou
+# Running On        :IR-VivoBook
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+# CPU Frequency     :1190 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :12613 MB
+# Swap memory       :21324 MB
+# Total Virtual     :33937 MB
+# Available Virtual :7502 MB
+#-----------------------------------------------------------
+source adder.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 513.426 ; gain = 201.488
+Command: read_checkpoint -auto_incremental -incremental D:/imran/P.W/VHDL/DI_Lab2_Adder/DI_Lab1_P1.srcs/utils_1/imports/synth_1/adder.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/imran/P.W/VHDL/DI_Lab2_Adder/DI_Lab1_P1.srcs/utils_1/imports/synth_1/adder.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top adder -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Device 21-9227] Part: xc7a100tcsg324-1 does not have CEAM library.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15992
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1385.254 ; gain = 448.816
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'adder' [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/adder.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'adder' (0#1) [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/adder.vhd:35]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1495.250 ; gain = 558.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1495.250 ; gain = 558.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1495.250 ; gain = 558.812
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1495.250 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc]
+WARNING: [Vivado 12-584] No ports matched 'T[0]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'T[1]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'T[0]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'T[1]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'T[0]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'T[1]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'T[0]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'T[1]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[8]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[9]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[8]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[9]'. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/imran/P.W/VHDL/DI_Lab2_Adder/source_files/MODSYS2IOM.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/adder_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/adder_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1586.609 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1586.609 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT3 |     4|
+|2     |LUT5 |     8|
+|3     |IBUF |    17|
+|4     |OBUF |     9|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1586.609 ; gain = 650.172
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1586.609 ; gain = 558.812
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1586.609 ; gain = 650.172
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1586.609 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1586.609 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 33c85681
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 29 Warnings, 28 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1586.609 ; gain = 1068.984
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1586.609 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/imran/P.W/VHDL/DI_Lab2_Adder/DI_Lab1_P1.runs/synth_1/adder.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file adder_utilization_synth.rpt -pb adder_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 15 01:26:44 2025...

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/imran/P.W/VHDL/DI_Lab2_AddSub/source_code/addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'addsub'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/imran/P.W/VHDL/DI_Lab2_AddSub/source_code/addsub_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'addsub_tb'
