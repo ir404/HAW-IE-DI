@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Allow git to recurse into directories (so we can unignore nested paths)
+!*/
+
+# Unignore any directory named "source_files" anywhere and everything inside it
+!**/source_files/
+!**/source_files/**
+
+# Keep this .gitignore tracked
+!.gitignore
